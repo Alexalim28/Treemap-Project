@@ -1,0 +1,51 @@
+body {
+  position: relative;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+tspan {
+  font-size: 0.65em;
+  font-weight: 600;
+}
+
+#tooltip {
+  position: absolute;
+  width: 130px;
+  min-height: 50px;
+  padding: 5px;
+  text-align: center;
+  background-color: azure;
+  font-size: 0.8em;
+  border-radius: 3px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  pointer-events: none;
+}
+
+text {
+  cursor: default;
+}
+
+#legend {
+  position: absolute;
+}
+
+.legend-text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
